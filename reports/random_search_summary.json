@@ -1,0 +1,25 @@
+{
+  "algorithm": "RandomForestClassifier",
+  "method": "RandomizedSearchCV",
+  "metric": "F2",
+  "reason": "El costo de no detectar churn justifica priorizar recall sin ignorar precision.",
+  "train_rows": 5634,
+  "holdout_test_rows": 1409,
+  "cv_folds": 5,
+  "candidate_count": 16,
+  "baseline_cv_f2_mean": 0.5024856621338738,
+  "baseline_cv_f2_std": 0.02946178005961628,
+  "random_cv_f2_mean": 0.7225190999660063,
+  "random_cv_f2_std": 0.014096799795475387,
+  "best_parameters": {
+    "classifier__n_estimators": 80,
+    "classifier__min_samples_split": 10,
+    "classifier__min_samples_leaf": 8,
+    "classifier__max_features": "sqrt",
+    "classifier__max_depth": 6,
+    "classifier__class_weight": "balanced"
+  },
+  "missing_total_charges": 11,
+  "holdout_used_in_search": false,
+  "holdout_evaluations_this_stage": 0
+}
