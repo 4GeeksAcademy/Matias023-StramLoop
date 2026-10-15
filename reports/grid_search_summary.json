@@ -1,0 +1,36 @@
+{
+  "method": "GridSearchCV",
+  "primary_metric": "F2",
+  "cv_folds": 5,
+  "candidates": 24,
+  "train_rows": 5634,
+  "holdout_rows": 1409,
+  "baseline_cv_f2_mean": 0.5024856621338738,
+  "randomized_cv_f2_mean": 0.7225190999660063,
+  "randomized_cv_f2_std": 0.014096799795475387,
+  "randomized_winner_reproduced_f2": 0.7225190999660063,
+  "grid_best_cv_f2_mean": 0.7225190999660063,
+  "grid_best_cv_f2_std": 0.014096799795475387,
+  "grid_best_parameters": {
+    "classifier__class_weight": "balanced",
+    "classifier__max_depth": 6,
+    "classifier__max_features": "sqrt",
+    "classifier__min_samples_leaf": 8,
+    "classifier__min_samples_split": 8,
+    "classifier__n_estimators": 80
+  },
+  "stability_tolerance_f2": 0.005,
+  "stable_candidate_cv_f2_mean": 0.7225190999660063,
+  "stable_candidate_cv_f2_std": 0.014096799795475387,
+  "stable_candidate_parameters": {
+    "classifier__class_weight": "balanced",
+    "classifier__max_depth": 6,
+    "classifier__max_features": "sqrt",
+    "classifier__min_samples_leaf": 8,
+    "classifier__min_samples_split": 8,
+    "classifier__n_estimators": 80
+  },
+  "holdout_used_in_search": false,
+  "holdout_evaluations_this_stage": 0,
+  "final_model_selected": false
+}
